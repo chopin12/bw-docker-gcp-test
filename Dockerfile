@@ -1,4 +1,4 @@
-FROM centos/systemd:1
+FROM centos/systemd:latest
 MAINTAINER adam@chabin.eu
 COPY nginx/nginx.repo /etc/yum.repos.d/nginx.repo
 RUN yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
